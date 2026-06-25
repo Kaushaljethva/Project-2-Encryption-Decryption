@@ -19,7 +19,7 @@ for ch in userinput:
 
 decrypted = ""
 
-for ch in userinput:
+for ch in encrypted:
 
     if ch.isalpha():
         if ch.isupper():
@@ -32,5 +32,5 @@ for ch in userinput:
         decrypted = decrypted + ch
 
 print(userinput , "<--Original Text")
-print(userinput , "<--Decrypted Text")
 print(encrypted , "<--Encrypted Text")
+print(decrypted , "<--Decrypted Text")
